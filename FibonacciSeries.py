@@ -5,7 +5,7 @@
 num=int(input("Enter a number of fibonacci series count"))
 list=[0,1,1]
 
-def fibo(num):
+def getFibonacci(num):
     before=1
     current=1
     for i in range(0,num-(len(list))):
@@ -15,14 +15,14 @@ def fibo(num):
         current=sum
         list.append(sum)
 
-fibo(num)
+getFibonacci(num)
 print(list)
 
 #or
 num=int(input("Enter a number of fibonacci series count"))
 list=[0,1,1]
 
-def fibo2(num):
+def get_fibonacci_while(num):
     before=1
     current=1
     while num-(len(list))>0:
@@ -32,7 +32,7 @@ def fibo2(num):
         current=sum
         list.append(sum)
 
-fibo2(num)
+get_fibonacci_while(num)
 print(list)
 
 
