@@ -1,8 +1,5 @@
-str="read it"
-str2=""
-print(len(str))
-length=len(str)-1
-while length>=0:
-    str2+=str[length]
-    length-=1
-print(str2)
+a=9
+b=18
+a,b=b,a
+print(a)
+print(b)
